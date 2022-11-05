@@ -1,6 +1,6 @@
 import React from 'react';
 import { Container, Row, Col } from 'react-bootstrap/lib/Tab';
-import SocialMedia from '../SocialMedia';
+import TypeWriter from './TypeWriter';
 
 function Home() {
     return (
@@ -26,7 +26,9 @@ function Home() {
                             sequi adipisci ea ipsam illum? Perferendis id enim, harum totam itaque culpa!
                             </p>
 
-                            {/* ADD TYPEWRITER ANIMATION HERE */}
+                            <div className='heading-type'>
+                                <TypeWriter />
+                            </div>    
                         </Col>
 
                         <Col md={5}>
